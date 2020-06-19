@@ -48,8 +48,11 @@
 }
 
 .photo1 {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  position: absolute;
   top: 65px;
   margin: auto;
   width: 100%;
@@ -61,18 +64,45 @@
 }
 
 .photo1__mainMenu {
-  position: relative;
+  position: absolute;
   top: 18px;
   margin: auto;
 }
 
-.photo1__phrase1 {}
+.photo1__phrase1 {
+  display: block;
+  position: absolute;
+  color: transparent;
+  width: 980px;
+  height: 94px;
+  background-image: url(https://web.archive.org/web/20140228175622im_/http://images.apple.com/your-verse/home/images/hero_subhead.png);
+  top: 260px;
+  margin: 0;
+}
 
-.photo1__phrase2 {}
+.photo1__phrase2 {
+  display: block;
+  position: absolute;
+  color: transparent;
+  width: 980px;
+  height: 30px;
+  background-image: url(https://web.archive.org/web/20140228175622im_/http://images.apple.com/your-verse/home/images/hero_cta.png);
+  top: 370px;
+  margin: 0;
+}
 
 .photo1__playVideo {}
 
-.photo1__title {}
+.photo1__title {
+  display: block;
+  position: absolute;
+  color: transparent;
+  width: 980px;
+  height: 84px;
+  background-image: url(https://web.archive.org/web/20140225205604im_/http://images.apple.com/your-verse/home/images/hero_title.png);
+  top: 168px;
+  margin: 0;
+}
 
 .playVideo {}
 
