@@ -37,20 +37,14 @@
 }
 
 .mainMenu__button_apple {
-  background-position-x: 50%;
-  background-position-y: 0px;
+  align-content: normal;
+  align-items: normal;
+  background-position-x: center;
+  background-position-y: 3px;
   background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
-  border: 0;
-  border-right-width: 1px;
+  border-left-width: 0;
   border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D') 0 2 0 1;
   ;
-}
-
-.mainMenu__button_search {}
-
-.mainMenu__search {
-  box-sizing: border-box;
-  width: 132px;
 }
 
 .photo1 {
@@ -83,3 +77,32 @@
 .playVideo {}
 
 .reset {}
+
+.searchDiv {
+  box-sizing: border-box;
+  width: 132px;
+  display: block;
+  align-content: center;
+  padding: 8px 16px 8px 13px;
+}
+
+.searchDiv__searchInput {
+  align-items: center;
+}
+
+.searchInput {
+  width: 106px;
+  height: 19px;
+  font-family: Arial;
+  font-size: 13.3333px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  height: 19px;
+  padding: 00;
+  border: 0;
+}
