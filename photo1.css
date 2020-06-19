@@ -91,7 +91,10 @@
   margin: 0;
 }
 
-.photo1__playVideo {}
+.photo1__playVideo {
+  position: relative;
+  top: 423px;
+}
 
 .photo1__title {
   display: block;
@@ -104,7 +107,12 @@
   margin: 0;
 }
 
-.playVideo {}
+.playVideo {
+  width: 70px;
+  height: 70px;
+  background: url(https://web.archive.org/web/20140225205602im_/http://images.apple.com/v/your-verse/home/b/images/play.png) 0 0 no-repeat;
+  border: 0;
+}
 
 .reset {}
 
