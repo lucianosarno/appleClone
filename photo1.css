@@ -109,15 +109,13 @@
 .reset {}
 
 .searchDiv {
-  box-sizing: border-box;
-  width: 132px;
   display: block;
   align-content: center;
-  padding: 8px 16px 8px 13px;
 }
 
 .searchDiv__searchInput {
   align-items: center;
+  margin: 8px 13px 8px 13px;
 }
 
 .searchInput {
@@ -134,5 +132,19 @@
   font-weight: 400;
   height: 19px;
   padding: 00;
-  border: 0;
+  border-width: 0.01px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.searchInput:focus {
+  animation-name: searchInput_expanded;
+  animation-duration: 0.5s;
+}
+
+@keyframes searchInput_expanded {
+  100% {
+    width: 170px;
+    background-color: white;
+  }
 }
