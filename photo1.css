@@ -140,6 +140,7 @@
 .searchInput:focus {
   animation-name: searchInput_expanded;
   animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes searchInput_expanded {
