@@ -6,6 +6,11 @@
   margin: auto;
 }
 
+.main_smallerPhotos {
+  position: absolute;
+  top: 539px;
+}
+
 .mainMenu {
   width: 980px;
   display: flex;
@@ -113,13 +118,6 @@
   margin: 0;
 }
 
-.playVideo {
-  width: 70px;
-  height: 70px;
-  background: url(https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/cta_your_verse_27pt.png) 0 0 no-repeat;
-  border: 0;
-}
-
 .reset {}
 
 .searchDiv {
@@ -162,4 +160,9 @@
     width: 170px;
     background-color: white;
   }
+}
+
+.smallerPhotos {
+  display: flex;
+  height: 300px;
 }
