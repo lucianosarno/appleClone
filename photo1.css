@@ -106,9 +106,10 @@
   position: absolute;
   color: transparent;
   width: 980px;
-  height: 82px;
-  background-image: url(https: //web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
-  top: 244px;
+  height: 30px;
+  background-image: url(https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
+  background-repeat: no-repeat;
+  top: 353px;
   margin: 0;
 }
 
