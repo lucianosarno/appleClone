@@ -6,14 +6,26 @@
   left: 153.5px
 }
 
+.bottomNavBar {
+  display: flex;
+  align-items: center;
+  width: 499.8px;
+  justify-content: space-between;
+  height: 15px;
+}
+
 .bottomNavBar__link {}
 
 .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 10.0008px;
   font-stretch: 100%;
   font-weight: 400;
-  height: 12px;
+  height: 40px;
   /* line-height: 12.001px; */
   width: 980px;
 }
@@ -23,10 +35,10 @@
   float: right;
 }
 
-.footer__text {
+.footer__textSection {
   /* position: absolute; */
   float: left;
-  margin: 0
+  margin: 0;
 }
 
 .main {}
@@ -219,4 +231,18 @@
 
 .smallerPhotos__smallerPhotosArticle_photo4 {
   background-image: url(https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+}
+
+.textSection {
+  width: 480px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.textSection__paragraph {
+  margin: 0;
+  /* height: 12px; */
+  vertical-align: top;
 }
