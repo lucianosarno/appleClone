@@ -3,7 +3,8 @@
 .body__footer {
   position: absolute;
   top: 765px;
-  left: 153.5px
+  left: 153.5px;
+  margin-bottom: 25px;
 }
 
 .bottomNavBar {
@@ -14,10 +15,14 @@
   height: 15px;
 }
 
-.bottomNavBar__link {}
+.footer__link {
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+}
 
 .footer {
   display: flex;
+  color: rgb(110, 110, 110);
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
@@ -25,8 +30,6 @@
   font-size: 10.0008px;
   font-stretch: 100%;
   font-weight: 400;
-  height: 40px;
-  /* line-height: 12.001px; */
   width: 980px;
 }
 
@@ -238,7 +241,7 @@
   height: 40px;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .textSection__paragraph {
