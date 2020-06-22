@@ -2,22 +2,31 @@
 
 .body__footer {
   position: absolute;
-  top: 749px;
+  top: 765px;
   left: 153.5px
 }
+
+.bottomNavBar__link {}
 
 .footer {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 10.0008px;
   font-stretch: 100%;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
   font-weight: 400;
   height: 12px;
-  line-height: 12.001px;
+  /* line-height: 12.001px; */
+  width: 980px;
+}
+
+.footer__bottomNavBar {
+  display: inline-flexbox;
+  float: right;
+}
+
+.footer__text {
+  /* position: absolute; */
+  float: left;
+  margin: 0
 }
 
 .main {}
