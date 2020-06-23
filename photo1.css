@@ -65,7 +65,7 @@ body {
 
 .mainMenu {
   width: 980px;
-  height: 36px; 
+  height: 36px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -120,7 +120,7 @@ body {
   align-items: center;
   width: 1440px;
   height: 538px;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.08)), url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.08)), url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-size: 1440px 1315px;
   background-position: 50% 100%;
   background-repeat: no-repeat;
