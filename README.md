@@ -1,7 +1,7 @@
 # Apple Clone
 > Luciano and Mohamed 4th project in HTML&CSS3 module.
 
-![screenshot](./#)
+![screenshot](asset/Screenshot.png)
 
 In this task we were required to create a clone of an Apple old website.
 

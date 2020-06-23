@@ -65,16 +65,13 @@ body {
 
 .mainMenu {
   width: 980px;
+  height: 36px; 
   display: flex;
   justify-content: space-between;
   align-content: center;
-  height: 36px;
   padding: 0;
   border-radius: 4px;
   background-image: url(http://images.apple.com/global/nav/images/globalheader.png);
-  -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))),
-  -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
-  -webkit-gradient(linear, 0 100%, 0 0, from(rgb(102, 102, 102)), color-stop(0.5, rgb(94, 94, 94)), color-stop(0.51, rgb(112, 112, 112)), to(rgb(128, 128, 128)));
   background-size: auto;
   background-origin: initial;
   background-repeat: repeat-x;
@@ -89,6 +86,7 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
+  text-decoration: none;
   border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D') 0 2 0 1;
   border-left: 1px solid rgb(110, 110, 110);
   border-right: 2px solid rgb(70, 70, 70);
@@ -102,6 +100,7 @@ body {
   font-variant-numeric: normal;
   font-weight: 400;
   line-height: 18px;
+  text-align: center;
 }
 
 .mainMenu__button_apple {
@@ -121,7 +120,7 @@ body {
   align-items: center;
   width: 1440px;
   height: 538px;
-  background-image: url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.08)), url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-size: 1440px 1315px;
   background-position: 50% 100%;
   background-repeat: no-repeat;
