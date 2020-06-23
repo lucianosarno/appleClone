@@ -1,10 +1,18 @@
-.body {}
+body {
+  position: relative;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
 
 .body__footer {
-  position: absolute;
   top: 765px;
-  left: 153.5px;
   margin-bottom: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .bottomNavBar {
@@ -39,16 +47,12 @@
 }
 
 .footer__textSection {
-  /* position: absolute; */
   float: left;
   margin: 0;
 }
 
-.main {}
-
 .main__photo1 {
   position: absolute;
-  /* top: 65px; */
   margin: auto;
   width: 980px;
 }
@@ -105,7 +109,6 @@
   background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
   border-left-width: 0;
   border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D') 0 2 0 1;
-  ;
 }
 
 .photo1 {
@@ -113,7 +116,7 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width: 100%;
+  width: 1440px;
   height: 538px;
   background-image: url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-size: 1440px 1315px;
@@ -166,8 +169,6 @@
   margin: 0;
 }
 
-.reset {}
-
 .searchDiv {
   display: block;
   align-content: center;
@@ -184,13 +185,7 @@
   font-family: Arial;
   font-size: 13.3333px;
   font-stretch: 100%;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
   font-weight: 400;
-  height: 19px;
   padding: 00;
   border-width: 0.01px;
   border-radius: 12px;
@@ -213,10 +208,16 @@
 .smallerPhotos {
   display: flex;
   justify-content: space-between;
+  width: 1440px;
+}
+
+.smallerPhotos__h1 {
+  color: transparent;
+  display: none;
 }
 
 .smallerPhotos__smallerPhotosArticle {
-  width: 321.75px;
+  width: 25%;
   height: 200px;
   background-size: 364px 200px;
   background-position-x: center;
@@ -248,6 +249,5 @@
 
 .textSection__paragraph {
   margin: 0;
-  /* height: 12px; */
   vertical-align: top;
 }
