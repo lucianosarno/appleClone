@@ -50,11 +50,13 @@
   position: absolute;
   /* top: 65px; */
   margin: auto;
+  width: 980px;
 }
 
 .main__smallerPhotos {
   position: absolute;
   top: 540px;
+  width: 980;
 }
 
 .mainMenu {
