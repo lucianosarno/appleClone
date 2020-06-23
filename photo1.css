@@ -6,18 +6,10 @@ body {
   display: flex;
   justify-content: center;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 781a89a68f65fb50bebbc97b3790d850fbe1821b
 
 .body__footer {
   top: 765px;
   margin-bottom: 25px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 781a89a68f65fb50bebbc97b3790d850fbe1821b
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -217,14 +209,11 @@ body {
   display: flex;
   justify-content: space-between;
   width: 1440px;
-<<<<<<< HEAD
 }
 
 .smallerPhotos__h1 {
   color: transparent;
   display: none;
-=======
->>>>>>> 781a89a68f65fb50bebbc97b3790d850fbe1821b
 }
 
 .smallerPhotos__smallerPhotosArticle {
