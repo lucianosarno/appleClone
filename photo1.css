@@ -1,10 +1,22 @@
-.body {}
+body {
+  position: relative;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
 
 .body__footer {
   position: absolute;
   top: 765px;
   left: 153.5px;
   margin-bottom: 25px;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .bottomNavBar {
@@ -113,7 +125,7 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width: 100%;
+  width: 1440px;
   height: 538px;
   background-image: url(https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-size: 1440px 1315px;
@@ -213,10 +225,11 @@
 .smallerPhotos {
   display: flex;
   justify-content: space-between;
+  width: 1440px;
 }
 
 .smallerPhotos__smallerPhotosArticle {
-  width: 321.75px;
+  width: 25%;
   height: 200px;
   background-size: 364px 200px;
   background-position-x: center;
