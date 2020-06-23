@@ -72,6 +72,9 @@ body {
   padding: 0;
   border-radius: 4px;
   background-image: url(http://images.apple.com/global/nav/images/globalheader.png);
+  -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))),
+  -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+  -webkit-gradient(linear, 0 100%, 0 0, from(rgb(102, 102, 102)), color-stop(0.5, rgb(94, 94, 94)), color-stop(0.51, rgb(112, 112, 112)), to(rgb(128, 128, 128)));
   background-size: auto;
   background-origin: initial;
   background-repeat: repeat-x;
